@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B400B56729605EE900B299D1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400B56629605EE900B299D1 /* Item.swift */; };
 		B400B5AB29609A2A00B299D1 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B400B5A929609A2A00B299D1 /* DataModel.xcdatamodeld */; };
 		B49DF1792957FA0D0035A799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DF1782957FA0D0035A799 /* AppDelegate.swift */; };
 		B49DF17B2957FA0D0035A799 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DF17A2957FA0D0035A799 /* SceneDelegate.swift */; };
@@ -18,6 +17,7 @@
 		B49DF1902957FA0F0035A799 /* Todo_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DF18F2957FA0F0035A799 /* Todo_Swift_UITests.swift */; };
 		B49DF19A2957FA0F0035A799 /* Todo_Swift_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DF1992957FA0F0035A799 /* Todo_Swift_UIUITests.swift */; };
 		B49DF19C2957FA0F0035A799 /* Todo_Swift_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DF19B2957FA0F0035A799 /* Todo_Swift_UIUITestsLaunchTests.swift */; };
+		B4F27C842961731500C89596 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F27C832961731500C89596 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B400B56629605EE900B299D1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B400B5AA29609A2A00B299D1 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B49DF1752957FA0D0035A799 /* Todo Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49DF1782957FA0D0035A799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		B49DF1952957FA0F0035A799 /* Todo Swift UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo Swift UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49DF1992957FA0F0035A799 /* Todo_Swift_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_Swift_UIUITests.swift; sourceTree = "<group>"; };
 		B49DF19B2957FA0F0035A799 /* Todo_Swift_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_Swift_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4F27C832961731500C89596 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,6 @@
 		B400B56529605ED500B299D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B400B56629605EE900B299D1 /* Item.swift */,
 				B400B5A929609A2A00B299D1 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
@@ -109,6 +108,7 @@
 		B400B56929605F0A00B299D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4F27C832961731500C89596 /* CategoryViewController.swift */,
 				B49DF17C2957FA0D0035A799 /* TodoListViewController.swift */,
 			);
 			path = Controller;
@@ -296,9 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B400B56729605EE900B299D1 /* Item.swift in Sources */,
 				B400B5AB29609A2A00B299D1 /* DataModel.xcdatamodeld in Sources */,
 				B49DF17D2957FA0D0035A799 /* TodoListViewController.swift in Sources */,
+				B4F27C842961731500C89596 /* CategoryViewController.swift in Sources */,
 				B49DF1792957FA0D0035A799 /* AppDelegate.swift in Sources */,
 				B49DF17B2957FA0D0035A799 /* SceneDelegate.swift in Sources */,
 			);
